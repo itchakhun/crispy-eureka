@@ -1,0 +1,8 @@
+@tailwind base;
+
+:root {
+  --oruga-tabs-toggle-link-active-background-color: #3730A3;
+}
+
+@tailwind components;
+@tailwind utilities;
