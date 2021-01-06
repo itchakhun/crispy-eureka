@@ -15,6 +15,6 @@ git add -A
 
 git commit -m 'deploy'
 
-git push -f git@github.com:itchakhun/crispy-eureka.git main:gh-pages
+git push -f git@github.com:itchakhun/crispy-eureka.git master:gh-pages
 
 cd -
