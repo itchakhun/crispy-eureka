@@ -4,7 +4,7 @@
 set -e
 
 # build
-yarn run build
+npm run build
 
 # navigate into the build output directory
 cd dist
@@ -15,6 +15,6 @@ git add -A
 
 git commit -m 'deploy'
 
-git push -f https://github.com/itchakhun/crispy-eureka.git main:gh-pages
+git push -f git@github.com:itchakhun/crispy-eureka.git main:gh-pages
 
 cd -
